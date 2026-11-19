@@ -1,0 +1,25 @@
+# Generated checks, temporary stores and recordings stay local.
+/qa/*
+!/qa/*.cs
+!/qa/*.ps1
+!/qa/*.py
+!/qa/task-check/
+/qa/task-check/*
+!/qa/task-check/*.cs
+
+# Publish the current desktop program and its previews.
+/outputs/*
+!/outputs/记下.exe
+!/outputs/记下操作演示.gif
+!/outputs/记下预览.png
+!/outputs/托盘菜单.png
+
+/.local/
+*.pdb
+*.tmp
+*.bak
+tasks.xml
+thoughts.xml
+introduced
+Thumbs.db
+Desktop.ini
